@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #333;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+#game {
+	display: inline-block;
+}
+
+.single-field {
+	height: 35px;
+	width: 35px;
+	border: 2px solid black;
+}
+.row {
+	display: flex;
+}
+.player-1 {
+	background-color: rgb(29, 240, 255);
+}
+.player-2 {
+	background-color: lime;
+}
+.p1 {
+	color: rgb(29, 240, 255);
+}
+
+.p2 {
+	color: lime;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
